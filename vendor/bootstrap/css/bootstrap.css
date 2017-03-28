@@ -1125,6 +1125,25 @@ img {
   height: auto;
 }
 
+.description-container {
+  /*border: 1px solid black;*/
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.supports-container {
+  /*border: 1px solid black;*/
+  float: left;
+  width: 50%;
+}
+
+.tech-container {
+  border-left: 1px dashed #F05F40;
+  float: right;
+  width: 50%;
+}
+
 .img-rounded {
   border-radius: 6px;
 }
@@ -1142,7 +1161,7 @@ img {
           transition: all .2s ease-in-out;
 }
 .img-circle {
-  border-radius: 50%;
+  border-radius: 20%;
 }
 hr {
   margin-top: 20px;
@@ -1570,6 +1589,7 @@ pre {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
+
 pre code {
   padding: 0;
   font-size: inherit;

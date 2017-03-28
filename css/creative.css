@@ -58,6 +58,7 @@
 .my-image {
   float: left;
   height: 30%;
+  position: relative;
   width: 50%;
 }
 
